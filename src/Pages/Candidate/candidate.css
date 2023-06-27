@@ -1,0 +1,67 @@
+
+.app{
+    height: auto;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    border: 1px solid black;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background: 
+		  radial-gradient(black 3px, transparent 4px),
+		  radial-gradient(black 3px, transparent 4px),
+		  linear-gradient(#fff 4px, transparent 0),
+		  linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
+		  linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
+		#fff;
+		background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+		background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+	
+}
+.search{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.search-bar{
+    margin-left: 50px;
+    height: 40px;
+    width: 280px;
+    border-radius: 25px ;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+.home{
+    background-color: black;
+    margin-left: 100px;
+}
+.box {
+  text-align: left;
+  border: black ridge 1px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  padding-left: 10px;
+}
+.data{
+    background: #fff;
+}
+.search-bar {
+  margin-bottom: 10px;
+  padding-left: 5px;
+}
+.hire{
+    display: flex;
+    justify-content: space-around;
+}
+@media screen and ( max-width: 600px){
+    .app{
+        width: auto;
+    }
+}
